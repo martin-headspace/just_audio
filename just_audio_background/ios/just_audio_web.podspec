@@ -17,4 +17,5 @@ temp fake just_audio_web plugin
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '8.0'
+  s.resource_bundles = {'just_audio_web' => ['Resources/PrivacyInfo.xcprivacy']}
 end
